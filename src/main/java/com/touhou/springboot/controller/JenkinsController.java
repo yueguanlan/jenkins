@@ -12,6 +12,6 @@ public class JenkinsController {
 
     @GetMapping("/test")
     public String test() {
-        return "hello world, I'm go test!";
+        return "hello world, Success!";
     }
 }
